@@ -10,5 +10,5 @@ def do_connect ():
             print(".", end="")
             sleep(.25)
     print("Network config:", sta_if.ifconfig())
-    
+    
 do_connect()
